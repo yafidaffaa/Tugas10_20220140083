@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobi</title>
+    <style>
+        /* Style untuk navbar */
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .navbar a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style untuk bagian hobi */
+        .hobi {
+            margin-top: 30px;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .hobi h2 {
+            text-align: center;
+        }
+
+        .hobi ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .hobi li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="bio.html">Biodata</a>
+        <a href="about.html">About Me</a>
+        <a href="hobi.html" class="active">Hobi</a>
+    </div>
+
+    <!-- Hobi -->
+    <div class="hobi">
+        <h2>Hobi</h2>
+        <form>
+            <ul>
+                <li><input type="checkbox" id="membaca" name="membaca" checked> <label for="membaca">Membaca buku</label></li>
+                <li><input type="checkbox" id="berenang" name="berenang" checked> <label for="berenang">Berenang</label></li>
+                <li><input type="checkbox" id="mendaki" name="mendaki"> <label for="mendaki">Mendaki gunung</label></li>
+                <li><input type="checkbox" id="menggambar" name="menggambar" checked> <label for="menggambar">Menggambar</label></li>
+            </ul>
+        </form>
+    </div>
+</body>
+</html>
